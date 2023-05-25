@@ -7,6 +7,39 @@ main {
 main #section-two {
   color: green;
 }
+main div ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+main div ul #rojo {
+  background-color: red;
+  width: 100px;
+  height: 300px;
+  text-decoration: underline;
+  border-radius: 10px;
+}
+main div ul #azul {
+  background-color: blue;
+  width: 100px;
+  height: 150px;
+  text-decoration: underline;
+  border-radius: 10px;
+}
+main div ul #rosa {
+  background-color: pink;
+  width: 100px;
+  height: 80px;
+  text-decoration: underline;
+  border-radius: 10px;
+}
+main div ul #naranja {
+  background-color: orange;
+  width: 100px;
+  height: 200px;
+  text-decoration: underline;
+  border-radius: 10px;
+}
 
 body {
   background-color: burlywood;

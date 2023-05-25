@@ -9,4 +9,24 @@ main{
     #section-two{
         color: $TextColortwo;
     }
+
+    div{
+        ul{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            #rojo{
+                @include item(300px,red)
+            }
+            #azul{
+                @include item(150px,blue)
+            }
+            #rosa{
+                @include item(80px,pink)
+            }
+            #naranja{
+                @include item($bgcolor:orange)
+            }
+        }
+    }
 }

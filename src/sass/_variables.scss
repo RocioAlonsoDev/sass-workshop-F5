@@ -3,3 +3,10 @@ $titleColor: crimson;
 $TextColorOne: darkorchid;
 $TextColortwo: green;
 
+@mixin item($h:200px,$bgcolor){
+    background-color: $bgcolor;
+    width: 100px;
+    height: $h;
+    text-decoration: underline;
+    border-radius: 10px;
+}
